@@ -22,6 +22,7 @@ window.onload = (event) => {
         div.style.height = "100px";
         div.style.background = "red";
         div.style.color = "white";
+        div.style.position = "relative";
         div.innerHTML = "Hello";
         document.getElementById("main").appendChild(div);
 
