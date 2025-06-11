@@ -21,7 +21,7 @@ window.onload = (event) => {
         div.style.width = "1300px";
         div.style.height = "150px";
         div.style.background = "grey";
-        div.style.color = "white";
+        div.style.color = rgb(52, 235, 229);
         div.style.position = "fixed";
         div.style.top = "50px"
         div.style.left = "50px"
