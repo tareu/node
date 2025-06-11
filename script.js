@@ -9,5 +9,5 @@ for (let i = 0; i < textlength; i++) {
         text += getRandomInt(0,2);
 }
 window.onload = (event) => {
-        document.getElementById("main").innerHTML = getRandomInt(0,2);
+        document.getElementById("main").innerHTML = text;
 };
