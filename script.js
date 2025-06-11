@@ -18,12 +18,13 @@ window.onload = (event) => {
         document.getElementById("main").style.wordWrap = "break-word";
         document.getElementById("main").style.font = "150px arial,serif";
         var div = document.createElement("div");
-        div.style.width = "1000px";
+        div.style.width = "1300px";
         div.style.height = "150px";
         div.style.background = "grey";
         div.style.color = "white";
         div.style.position = "fixed";
-        div.style.top = "10px"
+        div.style.top = "50px"
+        div.style.left = "50px"
         div.style.zIndex = "9";
         div.innerHTML = "Petar Milenkovic";
         document.getElementById("main").appendChild(div);
