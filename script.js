@@ -6,7 +6,12 @@ function getRandomInt(min, max) {
 text = ""
 textlength = 10000
 for (let i = 0; i < textlength; i++) {
-        text += getRandomInt(0,2);
+        if (getRandomInt(0,2) == 0) {
+                text += "&#9608";
+        }
+        if (getRandomInt(0,2) == 1) {
+                text += "&#9617";
+        }
 }
 window.onload = (event) => {
         document.getElementById("main").innerHTML = text;
