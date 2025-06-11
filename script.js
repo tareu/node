@@ -20,7 +20,7 @@ window.onload = (event) => {
         var div = document.createElement("div");
         div.style.width = "1300px";
         div.style.height = "150px";
-        div.style.color = "grey";
+        div.style.color = "white";
         div.style.background = "#5cfffc";
         div.style.position = "fixed";
         div.style.top = "50px"
