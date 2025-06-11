@@ -10,6 +10,6 @@ for (let i = 0; i < textlength; i++) {
 }
 window.onload = (event) => {
         document.getElementById("main").innerHTML = text;
-        document.getElementById("main").style.wordWrap = true;
+        document.getElementById("main").style.wordWrap = "break-word";
 
 };
