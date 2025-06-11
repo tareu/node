@@ -3,7 +3,10 @@ function getRandomInt(min, max) {
           const maxFloored = Math.floor(max);
           return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // The maximum is exclusive and the minimum is inclusive
 }
-
+text = ""
+for (let i = 0; i < textlength; i++) {
+        text += getRandomInt(0,2);
+}
 window.onload = (event) => {
         document.getElementById("main").innerHTML = getRandomInt(0,2);
 };
