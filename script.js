@@ -18,8 +18,8 @@ window.onload = (event) => {
         document.getElementById("main").style.wordWrap = "break-word";
         document.getElementById("main").style.font = "italic bold 150px arial,serif";
         var div = document.createElement("div");
-        div.style.width = "100px";
-        div.style.height = "100px";
+        div.style.width = "600px";
+        div.style.height = "150px";
         div.style.background = "red";
         div.style.color = "white";
         div.style.position = "fixed";
