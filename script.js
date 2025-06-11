@@ -16,7 +16,7 @@ window.onload = (event) => {
         }
         document.getElementById("main").innerHTML = text;
         document.getElementById("main").style.wordWrap = "break-word";
-        document.getElementById("main").style.font = "italic bold 150px arial,serif";
+        document.getElementById("main").style.font = "150px arial,serif";
         var div = document.createElement("div");
         div.style.width = "600px";
         div.style.height = "150px";
