@@ -25,7 +25,7 @@ window.onload = (event) => {
         div.style.position = "fixed";
         div.style.top = "0"
         div.style.zIndex = "9";
-        div.innerHTML = "Hello";
+        div.innerHTML = "Petar Milenkovic";
         document.getElementById("main").appendChild(div);
 
 };
