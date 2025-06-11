@@ -23,7 +23,7 @@ window.onload = (event) => {
         div.style.background = "grey";
         div.style.color = "white";
         div.style.position = "fixed";
-        div.style.top = "0"
+        div.style.top = "10px"
         div.style.zIndex = "9";
         div.innerHTML = "Petar Milenkovic";
         document.getElementById("main").appendChild(div);
