@@ -4,7 +4,7 @@ function getRandomInt(min, max) {
           return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // The maximum is exclusive and the minimum is inclusive
 }
 text = ""
-textlength = 100
+textlength = 10000
 for (let i = 0; i < textlength; i++) {
         text += getRandomInt(0,2);
 }
