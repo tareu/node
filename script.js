@@ -5,5 +5,5 @@ function getRandomInt(min, max) {
 }
 
 window.onload = (event) => {
-        document.getElementById("main").innerHTML = getRandomInt(0,1);
+        document.getElementById("main").innerHTML = getRandomInt(0,2);
 };
